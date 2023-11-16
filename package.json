@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-markdown",
+  "name": "@hasbai/tiptap-markdown",
   "version": "0.8.4",
   "description": "Edit markdown content in tiptap editor.",
   "scripts": {
