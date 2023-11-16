@@ -13,6 +13,11 @@ export class MarkdownSerializerState extends BaseMarkdownSerializerState {
         this.inlines = [];
     }
 
+    // Do not escape text
+    text(text, escape = false) {
+        super.text(text, escape)
+    }
+
     render(node, parent, index) {
         super.render(node, parent, index);
         const top = this.inlines[this.inlines.length - 1];

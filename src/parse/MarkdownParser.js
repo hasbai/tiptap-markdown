@@ -19,7 +19,7 @@ export class MarkdownParser {
             html,
             linkify,
             breaks,
-        });
+        }).disable('escape');
     }
 
     parse(content, { inline } = {}) {
